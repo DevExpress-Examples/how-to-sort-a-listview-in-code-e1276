@@ -1,0 +1,5 @@
+﻿<%@ Register TagPrefix="dxe" Namespace="DevExpress.Web.ASPxEditors" Assembly="DevExpress.Web.ASPxEditors.v8.3" %>
+<dxe:ASPxTextBox runat="server"
+	CssFilePath="~/App_Themes/XafDefault/{0}/styles.css" CssPostfix="xaf"
+	ImageFolder="~/App_Themes/XafDefault/{0}/">
+</dxe:ASPxTextBox>

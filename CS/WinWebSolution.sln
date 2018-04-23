@@ -1,0 +1,31 @@
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinWebSolution.Module", "WinWebSolution.Module\WinWebSolution.Module.csproj", "{7BF91242-C7C9-4EAB-B1FD-34DC7C5DED1C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinWebSolution.Web", "WinWebSolution.Web\WinWebSolution.Web.csproj", "{7F6F697F-A655-4854-A909-E60D10F6EDD4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinWebSolution.Win", "WinWebSolution.Win\WinWebSolution.Win.csproj", "{2CDDA61D-9924-4CEE-A8D4-83C012AEAD29}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7BF91242-C7C9-4EAB-B1FD-34DC7C5DED1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BF91242-C7C9-4EAB-B1FD-34DC7C5DED1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BF91242-C7C9-4EAB-B1FD-34DC7C5DED1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BF91242-C7C9-4EAB-B1FD-34DC7C5DED1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F6F697F-A655-4854-A909-E60D10F6EDD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F6F697F-A655-4854-A909-E60D10F6EDD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F6F697F-A655-4854-A909-E60D10F6EDD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F6F697F-A655-4854-A909-E60D10F6EDD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CDDA61D-9924-4CEE-A8D4-83C012AEAD29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CDDA61D-9924-4CEE-A8D4-83C012AEAD29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CDDA61D-9924-4CEE-A8D4-83C012AEAD29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CDDA61D-9924-4CEE-A8D4-83C012AEAD29}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

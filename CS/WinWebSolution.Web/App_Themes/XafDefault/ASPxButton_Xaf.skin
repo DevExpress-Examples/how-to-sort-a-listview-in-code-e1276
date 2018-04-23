@@ -1,0 +1,10 @@
+<%@ Register TagPrefix="xaf" Namespace="DevExpress.ExpressApp.Web.Editors.ASPx" Assembly="DevExpress.ExpressApp.Web.v9.3" %>
+<%@ Register TagPrefix="xaf" Namespace="DevExpress.ExpressApp.Web.Templates.ActionContainers" Assembly="DevExpress.ExpressApp.Web.v9.3" %>
+<xaf:ASPxButtonEx runat="server" CssPostfix="xaf">
+</xaf:ASPxButtonEx>
+<xaf:ASPxButtonEx runat="server" SkinID="LinkButton" CssPostfix="link_xaf" EnableDefaultAppearance="False" >
+</xaf:ASPxButtonEx>
+<xaf:ASPxButtonEx runat="server" SkinID="MenuItem" CssPostfix="menu_xaf" >
+</xaf:ASPxButtonEx>
+<xaf:TreeSingleChoiceActionControl runat="server" CssPostfix="xaf" ImageFolder="~/App_Themes/XafDefault/{0}/" EnableDefaultAppearance="False" >
+</xaf:TreeSingleChoiceActionControl>

@@ -1,0 +1,2 @@
+<%@ Register TagPrefix="dxe" Namespace="DevExpress.Web.ASPxEditors" Assembly="DevExpress.Web.ASPxEditors.v9.3" %>
+<dxe:ASPxSpinEdit runat="server" ImageFolder="~/App_Themes/XafDefault/{0}/" CssPostfix="xaf" />

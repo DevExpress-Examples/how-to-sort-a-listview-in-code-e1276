@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2126301E-5B5C-4D73-BBB8-664383C47FFF}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace></RootNamespace>
+    <AssemblyName>WinWebSolution.Win</AssemblyName>
+    <ApplicationIcon>ExpressApp.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'EasyTest|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\EasyTest\</OutputPath>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DefineConstants>EASYTEST=True</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.ExpressApp.EasyTest.WinAdapter.v9.3">
+      <Private>True</Private>
+      <HintPath>\\ccnet.devexpress.dev\LocalProjects\DXDlls\9.3.3\DevExpress.ExpressApp.EasyTest.WinAdapter.v9.3.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.OfficeSkins.v9.3">
+      <Private>True</Private>
+      <HintPath>\\ccnet.devexpress.dev\LocalProjects\DXDlls\9.3.3\DevExpress.OfficeSkins.v9.3.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v9.3">
+      <Private>True</Private>
+      <HintPath>\\ccnet.devexpress.dev\LocalProjects\DXDlls\9.3.3\DevExpress.Utils.v9.3.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.BonusSkins.v9.3">
+      <Private>True</Private>
+      <HintPath>\\ccnet.devexpress.dev\LocalProjects\DXDlls\9.3.3\DevExpress.BonusSkins.v9.3.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Data.v9.3">
+      <Private>True</Private>
+      <HintPath>\\ccnet.devexpress.dev\LocalProjects\DXDlls\9.3.3\DevExpress.Data.v9.3.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.ExpressApp.v9.3">
+      <Private>True</Private>
+      <HintPath>\\ccnet.devexpress.dev\LocalProjects\DXDlls\9.3.3\DevExpress.ExpressApp.v9.3.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.ExpressApp.Images.v9.3">
+      <Private>True</Private>
+      <HintPath>\\ccnet.devexpress.dev\LocalProjects\DXDlls\9.3.3\DevExpress.ExpressApp.Images.v9.3.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.ExpressApp.Objects.v9.3">
+      <Private>True</Private>
+      <HintPath>\\ccnet.devexpress.dev\LocalProjects\DXDlls\9.3.3\DevExpress.ExpressApp.Objects.v9.3.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.ExpressApp.Security.v9.3">
+      <Private>True</Private>
+      <HintPath>\\ccnet.devexpress.dev\LocalProjects\DXDlls\9.3.3\DevExpress.ExpressApp.Security.v9.3.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.ExpressApp.Validation.v9.3">
+      <Private>True</Private>
+      <HintPath>\\ccnet.devexpress.dev\LocalProjects\DXDlls\9.3.3\DevExpress.ExpressApp.Validation.v9.3.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.ExpressApp.Validation.Win.v9.3">
+      <Private>True</Private>
+      <HintPath>\\ccnet.devexpress.dev\LocalProjects\DXDlls\9.3.3\DevExpress.ExpressApp.Validation.Win.v9.3.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.ExpressApp.Win.v9.3">
+      <Private>True</Private>
+      <HintPath>\\ccnet.devexpress.dev\LocalProjects\DXDlls\9.3.3\DevExpress.ExpressApp.Win.v9.3.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Persistent.Base.v9.3">
+      <Private>True</Private>
+      <HintPath>\\ccnet.devexpress.dev\LocalProjects\DXDlls\9.3.3\DevExpress.Persistent.Base.v9.3.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Persistent.BaseImpl.v9.3">
+      <Private>True</Private>
+      <HintPath>\\ccnet.devexpress.dev\LocalProjects\DXDlls\9.3.3\DevExpress.Persistent.BaseImpl.v9.3.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpo.v9.3">
+      <Private>True</Private>
+      <HintPath>\\ccnet.devexpress.dev\LocalProjects\DXDlls\9.3.3\DevExpress.Xpo.v9.3.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraGrid.v9.3">
+      <Private>True</Private>
+      <HintPath>\\ccnet.devexpress.dev\LocalProjects\DXDlls\9.3.3\DevExpress.XtraGrid.v9.3.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraBars.v9.3">
+      <Private>True</Private>
+      <HintPath>\\ccnet.devexpress.dev\LocalProjects\DXDlls\9.3.3\DevExpress.XtraBars.v9.3.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v9.3">
+      <Private>True</Private>
+      <HintPath>\\ccnet.devexpress.dev\LocalProjects\DXDlls\9.3.3\DevExpress.XtraEditors.v9.3.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraLayout.v9.3">
+      <Private>True</Private>
+      <HintPath>\\ccnet.devexpress.dev\LocalProjects\DXDlls\9.3.3\DevExpress.XtraLayout.v9.3.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraNavBar.v9.3">
+      <Private>True</Private>
+      <HintPath>\\ccnet.devexpress.dev\LocalProjects\DXDlls\9.3.3\DevExpress.XtraNavBar.v9.3.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.configuration">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinApplication.resx">
+      <DependentUpon>WinApplication.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="WinApplication.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WinApplication.Designer.vb">
+      <DependentUpon>WinApplication.vb</DependentUpon>
+    </Compile>
+    <None Include="App.config" />
+    <Content Include="Model.xafml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ExpressApp.ico" />
+  </ItemGroup>
+  <ItemGroup></ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WinWebSolution.Module.Win\WinWebSolution.Module.Win.vbproj">
+      <Project>{CB60820C-8192-481E-A092-8A22A334729A}</Project>
+      <Name>WinWebSolution.Module.Win</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WinWebSolution.Module\WinWebSolution.Module.vbproj">
+      <Project>{942B8757-0F0C-4D80-B383-8E14E4FB424E}</Project>
+      <Name>WinWebSolution.Module</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

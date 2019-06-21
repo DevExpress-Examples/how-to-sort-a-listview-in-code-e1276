@@ -4,6 +4,9 @@
 * [SortListViewController.cs](./CS/WinWebSolution.Module/SortListViewController.cs) (VB: [SortListViewController.vb](./VB/WinWebSolution.Module/SortListViewController.vb))
 <!-- default file list end -->
 # How to sort a ListView in code
+<!-- run online -->
+**[[Run Online]](https://codecentral.devexpress.com/e1276)**
+<!-- run online end -->
 
 
 <p>In this example, we demonstrate how to apply sorting by a property of your business object, and disallow end-users from changing this sorting themselves. Consider the following scenario: we have an Issue business class that has the ModifiedOn property, and we need to show the last modified issue always on the top of the grid. This can be done if we implement a ViewController for the Issue ListView, and configure sorting for the required column of this ListView in the application model. This is done in the SortListViewControllerBase class, which is platform-agnostic.<br />
